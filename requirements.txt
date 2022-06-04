@@ -1,5 +1,10 @@
 django
+djangorestframework
+markdown
+django-filter
 pytest
 pytest-django
+pytest-selenium
+selenium
 gunicorn
 python-dotenv
