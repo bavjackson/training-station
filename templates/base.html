@@ -1,0 +1,26 @@
+{% load static %}
+{% load compress %}
+{% load render_bundle from webpack_loader %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% compress css %}
+  <link type="text/x-scss" href="{% static 'styles/main.scss' %}" rel="stylesheet" media="screen" />
+  <link type="text/x-scss" href="{% static 'styles/nav.scss' %}" rel="stylesheet" media="screen" />
+  {% endcompress %}
+
+  <title>Training Station</title>
+</head>
+
+<body>
+  {% include 'nav.html' %}
+</body>
+
+{% render_bundle 'main'  %}
+
+</html>

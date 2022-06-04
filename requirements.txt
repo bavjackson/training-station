@@ -2,9 +2,13 @@ django
 djangorestframework
 markdown
 django-filter
+django_compressor
+django-libsass
+django-webpack-loader
 pytest
 pytest-django
 pytest-selenium
 selenium
 gunicorn
 python-dotenv
+black

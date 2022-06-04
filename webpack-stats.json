@@ -1,0 +1,18 @@
+{
+  "status": "done",
+  "assets": {
+    "main-f555a2760adcf2b96393.js": {
+      "name": "main-f555a2760adcf2b96393.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\main-f555a2760adcf2b96393.js"
+    },
+    "main-f555a2760adcf2b96393.js.LICENSE.txt": {
+      "name": "main-f555a2760adcf2b96393.js.LICENSE.txt",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\main-f555a2760adcf2b96393.js.LICENSE.txt"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main-f555a2760adcf2b96393.js"
+    ]
+  }
+}

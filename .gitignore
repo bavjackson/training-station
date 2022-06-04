@@ -3,8 +3,11 @@ geckodriver.log
 geckodriver.exe
 .vscode/
 env/
-/static
 .env
+webpack_bundles
+CACHE
 
 *.py[cod]
 __pycache__
+
+node_modules
