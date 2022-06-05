@@ -41,7 +41,7 @@ def test_trainer_can_create_an_exercise(
 
     exercise_name_input = selenium.find_element_by_id("id_exercise_name")
     exercise_name_input.send_keys(exercise_name)
-    exercise_name_input.send_keys(Keys.Enter)
+    exercise_name_input.send_keys(Keys.ENTER)
 
     time.sleep(1)
 

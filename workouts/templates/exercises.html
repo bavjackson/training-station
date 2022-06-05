@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load render_bundle from webpack_loader %}
 
 {% block head %}
 <title>Exercises</title>
@@ -6,4 +7,15 @@
 
 {% block content %}
 <h1>Exercises</h1>
+<form id="id_create_exercise_form">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit">Submit</button>
+</form>
+<ul id="id_exercises_list">
+	{% for exercise in exercises %}
+		<li>{{ exercise.name }}</li>
+	{% endfor %}
+</ul>
+{% render_bundle 'exercises' %}
 {% endblock %}

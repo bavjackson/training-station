@@ -3,7 +3,7 @@ from django.urls import reverse
 
 
 class Exercise(models.Model):
-    name = models.TextField(default="", blank=False)
+    name = models.TextField(blank=False)
 
     def get_absolute_url(self):
         return reverse("view_exercise", args=[self.id])

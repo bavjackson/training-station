@@ -1,18 +1,30 @@
 {
   "status": "done",
   "assets": {
-    "main-f555a2760adcf2b96393.js": {
-      "name": "main-f555a2760adcf2b96393.js",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\main-f555a2760adcf2b96393.js"
+    "exercises-50d1e2845d71372b4b08.js": {
+      "name": "exercises-50d1e2845d71372b4b08.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-50d1e2845d71372b4b08.js"
     },
-    "main-f555a2760adcf2b96393.js.LICENSE.txt": {
-      "name": "main-f555a2760adcf2b96393.js.LICENSE.txt",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\main-f555a2760adcf2b96393.js.LICENSE.txt"
+    "exercises-ff680236e39b388cb1e6.js": {
+      "name": "exercises-ff680236e39b388cb1e6.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-ff680236e39b388cb1e6.js"
+    },
+    "exercises-e9482e1bbb92603d0597.js": {
+      "name": "exercises-e9482e1bbb92603d0597.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-e9482e1bbb92603d0597.js"
+    },
+    "exercises-76a57aa3575d219ce5b7.js": {
+      "name": "exercises-76a57aa3575d219ce5b7.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-76a57aa3575d219ce5b7.js"
+    },
+    "exercises-2f1d04beff9a048d8711.js": {
+      "name": "exercises-2f1d04beff9a048d8711.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-2f1d04beff9a048d8711.js"
     }
   },
   "chunks": {
-    "main": [
-      "main-f555a2760adcf2b96393.js"
+    "exercises": [
+      "exercises-2f1d04beff9a048d8711.js"
     ]
   }
 }

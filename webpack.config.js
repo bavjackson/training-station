@@ -4,7 +4,7 @@ const BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = {
   context: __dirname,
-  entry: { main: './static/js/main/index.ts' },
+  entry: { exercises: './static/js/exercises/index.ts' },
   module: {
     rules: [
       {

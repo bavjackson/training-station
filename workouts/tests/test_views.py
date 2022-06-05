@@ -1,5 +1,7 @@
 import pytest
-from pytest_django.asserts import assertTemplateUsed, assertRedirects
+from pytest_django.asserts import assertTemplateUsed, assertRedirects, assertContains
+from model_bakery import baker
+
 from workouts.forms import ExerciseForm
 from workouts.models import Exercise
 
@@ -28,6 +30,21 @@ def test_exercises_page_loads_correct_html_if_trainer(client, authenticated_trai
 def test_exercises_page_uses_correct_form(client, authenticated_trainer):
     response = client.get("/workouts/exercises/")
     assert isinstance(response.context["form"], ExerciseForm)
+
+
+def test_passes_exercises_to_template(client, authenticated_trainer):
+    exercises = baker.make(Exercise, _quantity=3)
+    response = client.get("/workouts/exercises/")
+    assert list(response.context["exercises"]) == exercises
+
+
+def test_displays_all_exercises(client, authenticated_trainer):
+    exercises = baker.make(Exercise, _quantity=3, _fill_optional=True)
+    response = client.get("/workouts/exercises/")
+
+    assertContains(response, exercises[0].name)
+    assertContains(response, exercises[1].name)
+    assertContains(response, exercises[2].name)
 
 
 # Single exercise view
