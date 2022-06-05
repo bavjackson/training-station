@@ -11,3 +11,5 @@ CACHE
 __pycache__
 
 node_modules
+
+sent_emails
