@@ -13,12 +13,19 @@
   <link type="text/x-scss" href="{% static 'styles/main.scss' %}" rel="stylesheet" media="screen" />
   <link type="text/x-scss" href="{% static 'styles/nav.scss' %}" rel="stylesheet" media="screen" />
   {% endcompress %}
+  {% block head %}
+    <title>Training Station</title>
+  {% endblock %}
 
-  <title>Training Station</title>
 </head>
 
 <body>
   {% include 'nav.html' %}
+  <div class="content">
+  {% block content %}
+
+  {% endblock %}
+  </div>
 </body>
 
 {% render_bundle 'main'  %}

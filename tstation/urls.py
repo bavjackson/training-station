@@ -22,4 +22,5 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     path("", workout_views.home_page, name="home"),
     path("workouts/", include("workouts.urls")),
+    path("accounts/", include("accounts.urls")),
 ]

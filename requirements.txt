@@ -8,6 +8,7 @@ django-webpack-loader
 pytest
 pytest-django
 pytest-selenium
+model_bakery
 selenium
 gunicorn
 python-dotenv

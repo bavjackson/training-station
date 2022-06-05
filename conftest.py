@@ -1,15 +1,32 @@
 import pytest
+from rest_framework.test import APIClient
 from selenium import webdriver
 from selenium.webdriver.support.events import EventFiringWebDriver
 
 options = webdriver.FirefoxOptions()
 options.headless = True
 
+
+@pytest.fixture
+def api_client():
+    return APIClient
+
+
+@pytest.fixture
+def authentiated_user(client, django_user_model):
+    email = "test@test.com"
+    password = "password"
+    user = django_user_model.objects.create(email=email, password=password)
+    client.force_login(user)
+    return user
+
+
 @pytest.fixture
 def browser():
     driver = webdriver.Firefox(options=options)
     yield driver
     driver.quit()
+
 
 @pytest.fixture
 def driver_factory(request, driver_class, driver_kwargs):
