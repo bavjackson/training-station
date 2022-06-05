@@ -5,6 +5,7 @@ django-filter
 django_compressor
 django-libsass
 django-webpack-loader
+psycopg2
 pytest
 pytest-django
 pytest-selenium
