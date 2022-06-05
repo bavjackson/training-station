@@ -15,3 +15,13 @@ def exercises_page(request):
         return render(request, "exercises.html")
     else:
         return redirect("/")
+
+
+@login_required
+def exercise_page(request, id):
+    print(request.user)
+    trainer_group = Group.objects.get(name="Trainer")
+    if trainer_group in request.user.groups.all():
+        return render(request, "exercise.html")
+    else:
+        return redirect("/")
