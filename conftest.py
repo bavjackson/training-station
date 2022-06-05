@@ -13,7 +13,7 @@ def api_client():
 
 
 @pytest.fixture
-def authentiated_user(client, django_user_model):
+def authenticated_user(client, django_user_model):
     email = "test@test.com"
     password = "password"
     user = django_user_model.objects.create(email=email, password=password)

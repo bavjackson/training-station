@@ -19,8 +19,8 @@ from django.urls import path, include
 from workouts import views as workout_views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
     path("", workout_views.home_page, name="home"),
     path("workouts/", include("workouts.urls")),
-    path("accounts/", include("accounts.urls")),
+    path("users/", include("users.urls")),
 ]
