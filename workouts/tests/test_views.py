@@ -1,5 +1,6 @@
 import pytest
 from pytest_django.asserts import assertTemplateUsed, assertRedirects
+from workouts.forms import ExerciseForm
 from workouts.models import Exercise
 
 # Home view
@@ -8,6 +9,7 @@ def test_home_page_returns_correct_html(client):
     assertTemplateUsed(response, "home.html")
 
 
+# Multiple exercises view
 def test_exercises_page_redirects_if_not_logged_in(client):
     response = client.get("/workouts/exercises/")
     assertRedirects(response, "/users/login/?next=/workouts/exercises/")
@@ -23,6 +25,12 @@ def test_exercises_page_loads_correct_html_if_trainer(client, authenticated_trai
     assertTemplateUsed(response, "exercises.html")
 
 
+def test_exercises_page_uses_correct_form(client, authenticated_trainer):
+    response = client.get("/workouts/exercises/")
+    assert isinstance(response.context["form"], ExerciseForm)
+
+
+# Single exercise view
 def test_exercise_page_redirects_if_not_logged_in(client):
     response = client.get(f"/workouts/exercises/1/")
     assertRedirects(response, "/users/login/?next=/workouts/exercises/1/")

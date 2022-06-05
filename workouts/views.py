@@ -1,6 +1,7 @@
 from django.contrib.auth.models import Group
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
+from workouts.forms import ExerciseForm
 
 
 def home_page(request):
@@ -12,7 +13,8 @@ def exercises_page(request):
     print(request.user)
     trainer_group = Group.objects.get(name="Trainer")
     if trainer_group in request.user.groups.all():
-        return render(request, "exercises.html")
+        form = ExerciseForm()
+        return render(request, "exercises.html", {"form": form})
     else:
         return redirect("/")
 
