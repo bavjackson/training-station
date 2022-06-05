@@ -2,6 +2,7 @@ import pytest
 from rest_framework.test import APIClient
 from selenium import webdriver
 from selenium.webdriver.support.events import EventFiringWebDriver
+from django.contrib.auth.models import Group
 
 options = webdriver.FirefoxOptions()
 options.headless = True
@@ -17,6 +18,17 @@ def authenticated_user(client, django_user_model):
     email = "test@test.com"
     password = "password"
     user = django_user_model.objects.create(email=email, password=password)
+    client.force_login(user)
+    return user
+
+
+@pytest.fixture
+def authenticated_trainer(client, django_user_model):
+    email = "test@test.com"
+    password = "password"
+    user = django_user_model.objects.create(email=email, password=password)
+    trainer_group = Group.objects.get(name="Trainer")
+    trainer_group.user_set.add(user)
     client.force_login(user)
     return user
 
