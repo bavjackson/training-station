@@ -1,30 +1,147 @@
 {
   "status": "done",
   "assets": {
-    "exercises-50d1e2845d71372b4b08.js": {
-      "name": "exercises-50d1e2845d71372b4b08.js",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-50d1e2845d71372b4b08.js"
+    "exercises-7114e87cacf238d78cf5.js": {
+      "name": "exercises-7114e87cacf238d78cf5.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-7114e87cacf238d78cf5.js"
     },
-    "exercises-ff680236e39b388cb1e6.js": {
-      "name": "exercises-ff680236e39b388cb1e6.js",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-ff680236e39b388cb1e6.js"
+    "exercises-9e6bb85aa6b4ac3bc251.js": {
+      "name": "exercises-9e6bb85aa6b4ac3bc251.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-9e6bb85aa6b4ac3bc251.js"
     },
-    "exercises-e9482e1bbb92603d0597.js": {
-      "name": "exercises-e9482e1bbb92603d0597.js",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-e9482e1bbb92603d0597.js"
+    "exercises.7114e87cacf238d78cf5.hot-update.js": {
+      "name": "exercises.7114e87cacf238d78cf5.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.7114e87cacf238d78cf5.hot-update.js"
     },
-    "exercises-76a57aa3575d219ce5b7.js": {
-      "name": "exercises-76a57aa3575d219ce5b7.js",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-76a57aa3575d219ce5b7.js"
+    "exercises.7114e87cacf238d78cf5.hot-update.json": {
+      "name": "exercises.7114e87cacf238d78cf5.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.7114e87cacf238d78cf5.hot-update.json"
     },
-    "exercises-2f1d04beff9a048d8711.js": {
-      "name": "exercises-2f1d04beff9a048d8711.js",
-      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-2f1d04beff9a048d8711.js"
+    "exercises-ba703fe6171cffe72613.js": {
+      "name": "exercises-ba703fe6171cffe72613.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-ba703fe6171cffe72613.js"
+    },
+    "exercises.9e6bb85aa6b4ac3bc251.hot-update.js": {
+      "name": "exercises.9e6bb85aa6b4ac3bc251.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.9e6bb85aa6b4ac3bc251.hot-update.js"
+    },
+    "exercises.9e6bb85aa6b4ac3bc251.hot-update.json": {
+      "name": "exercises.9e6bb85aa6b4ac3bc251.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.9e6bb85aa6b4ac3bc251.hot-update.json"
+    },
+    "exercises-dc572517cf6c4c9ecba0.js": {
+      "name": "exercises-dc572517cf6c4c9ecba0.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-dc572517cf6c4c9ecba0.js"
+    },
+    "exercises.ba703fe6171cffe72613.hot-update.js": {
+      "name": "exercises.ba703fe6171cffe72613.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.ba703fe6171cffe72613.hot-update.js"
+    },
+    "exercises.ba703fe6171cffe72613.hot-update.json": {
+      "name": "exercises.ba703fe6171cffe72613.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.ba703fe6171cffe72613.hot-update.json"
+    },
+    "exercises-5d5556dd245ab6394245.js": {
+      "name": "exercises-5d5556dd245ab6394245.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-5d5556dd245ab6394245.js"
+    },
+    "exercises.dc572517cf6c4c9ecba0.hot-update.js": {
+      "name": "exercises.dc572517cf6c4c9ecba0.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.dc572517cf6c4c9ecba0.hot-update.js"
+    },
+    "exercises.dc572517cf6c4c9ecba0.hot-update.json": {
+      "name": "exercises.dc572517cf6c4c9ecba0.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.dc572517cf6c4c9ecba0.hot-update.json"
+    },
+    "exercises-f39f47303677abcb7f5f.js": {
+      "name": "exercises-f39f47303677abcb7f5f.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-f39f47303677abcb7f5f.js"
+    },
+    "exercises.5d5556dd245ab6394245.hot-update.js": {
+      "name": "exercises.5d5556dd245ab6394245.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.5d5556dd245ab6394245.hot-update.js"
+    },
+    "exercises.5d5556dd245ab6394245.hot-update.json": {
+      "name": "exercises.5d5556dd245ab6394245.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.5d5556dd245ab6394245.hot-update.json"
+    },
+    "exercises-b3f7d03027e435933ccb.js": {
+      "name": "exercises-b3f7d03027e435933ccb.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-b3f7d03027e435933ccb.js"
+    },
+    "exercises.f39f47303677abcb7f5f.hot-update.js": {
+      "name": "exercises.f39f47303677abcb7f5f.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.f39f47303677abcb7f5f.hot-update.js"
+    },
+    "exercises.f39f47303677abcb7f5f.hot-update.json": {
+      "name": "exercises.f39f47303677abcb7f5f.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.f39f47303677abcb7f5f.hot-update.json"
+    },
+    "exercises-44c5a1c79e950da713d0.js": {
+      "name": "exercises-44c5a1c79e950da713d0.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-44c5a1c79e950da713d0.js"
+    },
+    "exercises.b3f7d03027e435933ccb.hot-update.js": {
+      "name": "exercises.b3f7d03027e435933ccb.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.b3f7d03027e435933ccb.hot-update.js"
+    },
+    "exercises.b3f7d03027e435933ccb.hot-update.json": {
+      "name": "exercises.b3f7d03027e435933ccb.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.b3f7d03027e435933ccb.hot-update.json"
+    },
+    "exercises-5a6d4e79953458ec2332.js": {
+      "name": "exercises-5a6d4e79953458ec2332.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-5a6d4e79953458ec2332.js"
+    },
+    "exercises.44c5a1c79e950da713d0.hot-update.js": {
+      "name": "exercises.44c5a1c79e950da713d0.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.44c5a1c79e950da713d0.hot-update.js"
+    },
+    "exercises.44c5a1c79e950da713d0.hot-update.json": {
+      "name": "exercises.44c5a1c79e950da713d0.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.44c5a1c79e950da713d0.hot-update.json"
+    },
+    "exercises-0bbd9bf508a45c9147a4.js": {
+      "name": "exercises-0bbd9bf508a45c9147a4.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-0bbd9bf508a45c9147a4.js"
+    },
+    "exercises.5a6d4e79953458ec2332.hot-update.js": {
+      "name": "exercises.5a6d4e79953458ec2332.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.5a6d4e79953458ec2332.hot-update.js"
+    },
+    "exercises.5a6d4e79953458ec2332.hot-update.json": {
+      "name": "exercises.5a6d4e79953458ec2332.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.5a6d4e79953458ec2332.hot-update.json"
+    },
+    "exercises-59fcfa01437e854f4c2f.js": {
+      "name": "exercises-59fcfa01437e854f4c2f.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-59fcfa01437e854f4c2f.js"
+    },
+    "exercises.0bbd9bf508a45c9147a4.hot-update.js": {
+      "name": "exercises.0bbd9bf508a45c9147a4.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.0bbd9bf508a45c9147a4.hot-update.js"
+    },
+    "exercises.0bbd9bf508a45c9147a4.hot-update.json": {
+      "name": "exercises.0bbd9bf508a45c9147a4.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.0bbd9bf508a45c9147a4.hot-update.json"
+    },
+    "exercises-e71a7b23ee6f70b94e87.js": {
+      "name": "exercises-e71a7b23ee6f70b94e87.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises-e71a7b23ee6f70b94e87.js"
+    },
+    "exercises.59fcfa01437e854f4c2f.hot-update.js": {
+      "name": "exercises.59fcfa01437e854f4c2f.hot-update.js",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.59fcfa01437e854f4c2f.hot-update.js"
+    },
+    "exercises.59fcfa01437e854f4c2f.hot-update.json": {
+      "name": "exercises.59fcfa01437e854f4c2f.hot-update.json",
+      "path": "C:\\Users\\bavja\\repos\\training-station\\static\\webpack_bundles\\exercises.59fcfa01437e854f4c2f.hot-update.json"
     }
   },
   "chunks": {
     "exercises": [
-      "exercises-2f1d04beff9a048d8711.js"
+      "exercises-e71a7b23ee6f70b94e87.js",
+      "exercises.59fcfa01437e854f4c2f.hot-update.js"
     ]
   }
 }

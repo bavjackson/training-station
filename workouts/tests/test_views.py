@@ -1,6 +1,12 @@
 import pytest
-from pytest_django.asserts import assertTemplateUsed, assertRedirects, assertContains
+from pytest_django.asserts import (
+    assertTemplateUsed,
+    assertRedirects,
+    assertContains,
+    assertJSONEqual,
+)
 from model_bakery import baker
+from django.forms import model_to_dict
 
 from workouts.forms import ExerciseForm
 from workouts.models import Exercise
@@ -45,6 +51,32 @@ def test_displays_all_exercises(client, authenticated_trainer):
     assertContains(response, exercises[0].name)
     assertContains(response, exercises[1].name)
     assertContains(response, exercises[2].name)
+
+
+def test_creates_exercise_when_submitting_valid_form(client, authenticated_trainer):
+    exercise = model_to_dict(baker.prepare(Exercise, _fill_optional=True))
+    del exercise["id"]
+    response = client.post("/workouts/exercises/", exercise)
+
+    db_exercise = Exercise.objects.first()
+
+    assert db_exercise.name == exercise["name"]
+
+
+def test_returns_new_exercise_after_submitting_valid_form(
+    client, authenticated_trainer
+):
+    exercise = model_to_dict(baker.prepare(Exercise, _fill_optional=True))
+    del exercise["id"]
+    response = client.post("/workouts/exercises/", exercise)
+
+    assertJSONEqual(response.content, exercise)
+
+
+def test_throws_error_when_posting_invalid_data(client, authenticated_trainer):
+    response = client.post("/workouts/exercises/", {"name": ""})
+
+    assert response.status_code == 400
 
 
 # Single exercise view

@@ -3,6 +3,12 @@ const webpack = require('webpack');
 const BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = {
+  mode: 'development',
+  devServer: {
+    devMiddleware: {
+      writeToDisk: true,
+    },
+  },
   context: __dirname,
   entry: { exercises: './static/js/exercises/index.ts' },
   module: {
